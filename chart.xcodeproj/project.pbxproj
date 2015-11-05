@@ -15,6 +15,7 @@
 		5B34A7141BAA9E2200C0FE08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B34A7121BAA9E2200C0FE08 /* LaunchScreen.storyboard */; };
 		5B34A71F1BAA9E2200C0FE08 /* chartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B34A71E1BAA9E2200C0FE08 /* chartTests.m */; };
 		5B34A72A1BAA9E2200C0FE08 /* chartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B34A7291BAA9E2200C0FE08 /* chartUITests.m */; };
+		5B34A7391BAA9E4400C0FE08 /* LineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B34A7381BAA9E4400C0FE08 /* LineChartView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5B34A7251BAA9E2200C0FE08 /* chartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B34A7291BAA9E2200C0FE08 /* chartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chartUITests.m; sourceTree = "<group>"; };
 		5B34A72B1BAA9E2200C0FE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B34A7371BAA9E4400C0FE08 /* LineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartView.h; sourceTree = "<group>"; };
+		5B34A7381BAA9E4400C0FE08 /* LineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				5B34A7121BAA9E2200C0FE08 /* LaunchScreen.storyboard */,
 				5B34A7151BAA9E2200C0FE08 /* Info.plist */,
 				5B34A7041BAA9E2200C0FE08 /* Supporting Files */,
+				5B34A7371BAA9E4400C0FE08 /* LineChartView.h */,
+				5B34A7381BAA9E4400C0FE08 /* LineChartView.m */,
 			);
 			path = chart;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				5B34A70C1BAA9E2200C0FE08 /* ViewController.m in Sources */,
 				5B34A7091BAA9E2200C0FE08 /* AppDelegate.m in Sources */,
 				5B34A7061BAA9E2200C0FE08 /* main.m in Sources */,
+				5B34A7391BAA9E4400C0FE08 /* LineChartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
